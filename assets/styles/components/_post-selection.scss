@@ -1,0 +1,29 @@
+.post-selection {
+  background-color: var(--c-primary-light);
+
+  &__wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
+    padding: 5rem 0;
+  }
+}
+
+.post-card {
+  text-align: center;
+  &__img {
+    max-height: 150px;
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+  h3 {
+    color: var(--c-dark);
+    margin-bottom: 1rem;
+  }
+  a {
+    color: initial;
+  }
+}

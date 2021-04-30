@@ -1,0 +1,26 @@
+.funny-thigs {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 5rem 0;
+  &__title {
+    font-size: var(--fs-title-md);
+    color: var(--c-dark);
+    margin-bottom: 3rem;
+  }
+}
+
+.curiosity-box {
+  display: flex;
+  gap: 3rem;
+
+  &__item {
+    padding: 1rem;
+    h3 {
+      font-size: var(--fs-title-sm);
+      color: var(--c-dark);
+      margin-bottom: 1rem;
+    }
+  }
+}
